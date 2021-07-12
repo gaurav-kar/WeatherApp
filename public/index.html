@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js" integrity="sha512-ChQiOC9OBUvQ75KLv3+YRxCQLV1bSWnGfcSdaP1v3iu6XSkmge+eXCu3lcV+O+Uvdjb+LGMZd/KAvV4rkEfbzw==" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"
+      integrity="sha512-ChQiOC9OBUvQ75KLv3+YRxCQLV1bSWnGfcSdaP1v3iu6XSkmge+eXCu3lcV+O+Uvdjb+LGMZd/KAvV4rkEfbzw=="
+      crossorigin="anonymous"
+    ></script>
     <script defer src="server.js"></script>
     <script defer src="script.js"></script>
     <title>Weather App</title>
+  </head>
 
-</head>
-
-<body>
-
-    <div class=" container ">
-        <div class="header ">
-            <div class="top-banner">
-                <h1>The Weather Around the World</h1>
-            </div>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="top-banner">
+          <h1>The Weather Around the World</h1>
         </div>
-        <div class="content ">
-            <div class="general-information ">
-                <div class="status ">Enter a Location</div>
-                <div class="location ">To Find the Weather</div>
-                <div class="timezone"></div>
-            </div>
+      </div>
+      <div class="content">
+        <div class="general-information">
+          <div class="status">Enter a Location</div>
+          <div class="location">To Find the Weather</div>
+          <div class="timezone"></div>
         </div>
-        <div class="detail-section ">
-            <div class="detail ">
-                <div class="title">Wind</div>
-                <div class="value wind">--</div>
-            </div>
-            <div class="detail bordered">
-                <div class="title">Temperature</div>
-                <div class="value temp">--</div>
-            </div>
-            <div class="detail ">
-                <div class="title">Humidity</div>
-                <div class="value humidity">--</div>
-            </div>
+      </div>
+      <div class="detail-section">
+        <div class="detail">
+          <div class="title">Wind</div>
+          <div class="value wind">--</div>
         </div>
-        <div class=" city-search-container ">
-            <form action='#' class='city-search-container'>
-                <input type=" text " class="city-search " placeholder="Enter City ">
-                <button type="submit ">Get Weather Info</button>
-            </form>
+        <div class="detail bordered">
+          <div class="title">Temperature</div>
+          <div class="value temp">--</div>
         </div>
-
+        <div class="detail">
+          <div class="title">Humidity</div>
+          <div class="value humidity">--</div>
+        </div>
+      </div>
+      <div class="city-search-container">
+        <form action="#" class="city-search-container">
+          <input type=" text " class="city-search" placeholder="Enter City " />
+          <button type="submit ">Get Weather Info</button>
+        </form>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

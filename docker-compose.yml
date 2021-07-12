@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  weatherapp:
+    container_name: weatherapp
+    build: .
+    image: iamgk/weatherapp
+    ports:
+      - 2525:2525
+    env_file: ./weatherapp.env
